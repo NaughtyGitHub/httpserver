@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<html lang="zh_CN">-->
+<head>
+    <meta charset="UTF-8" http-equiv="content-type">
+    <!--    <meta charset="UTF-8" http-equiv="refresh" content="2;URL=www.baidu.com">-->
+    <title>Title</title>
+</head>
+<body>
+<hr>
+
+<input type="date">
+<input type="number">
+<input type="email">
+<form action="http://192.168.0.112:80/index/" method="post">
+    <div>
+        <label for="i1">username:&nbsp;</label>
+        <input id="i1" name="username" type="text" placeholder="uname" value="na">
+        <!--        <input id="i1" name="username" type="text" placeholder="uname" value="na" disabled>-->
+    </div>
+
+    <div>
+        <label>password:&nbsp;
+            <input name="password" type="password">
+        </label>
+    </div>
+
+    <div>
+        <label>sex:&nbsp;
+            <label>
+                <input name="gender" value="male" type="radio" checked="checked"> boy
+            </label>
+            <label>
+                <input name="gender" value="female" type="radio" checked> girl
+            </label>
+        </label>
+    </div>
+
+    <div>
+        <label>hobby:&nbsp;
+            <label>
+                <input type="checkbox" name="select" value="basketball">basketball
+            </label>
+            <label>
+                <input type="checkbox" name="select" value="football" checked>football
+            </label>
+            <label>
+                <input type="checkbox" name="select" value="double chromosphere">double chromosphere
+            </label>
+        </label>
+    </div>
+
+    <div>
+        <label>image:&nbsp;
+            <input type="file" name="image" accept="image/*">
+        </label>
+
+    </div>
+
+    <div>
+        <label>signature
+            <textarea name="info" rows="10" cols="30"></textarea>
+        </label>
+    </div>
+
+    <div>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+        <button type="submit">sub</button>
+    </div>
+
+
+    <hr>
+    <hr>
+    <hr>
+    <div>
+        <ul>
+            {ooxx}
+            <li>b</li>
+            <li>c</li>
+        </ul>
+        <ol>
+            {{.}}
+            <li>2</li>
+            <li>3</li>
+        </ol>
+    </div>
+</form>
+</body>
+</html>
